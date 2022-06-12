@@ -1,7 +1,3 @@
-//fetch("https://www.breakingbadapi.com/api/")
-//.catch(res => res.json())
-//.then(data => console.log(data))
-
 async function getData(){ 
     const respense = await fetch("https://www.breakingbadapi.com/api/characters")
     const data = await respense.json()
